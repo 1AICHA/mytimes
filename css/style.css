@@ -67,3 +67,12 @@ ul li{
 .firstcolumn div{
   border: thin solid;
 }
+
+.secondcolumn{
+  width: 300px;
+  border: thick solid;
+}
+
+.secondcolumn div{
+  border: thin solid;
+}
