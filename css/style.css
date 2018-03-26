@@ -57,13 +57,16 @@ ul li{
   display: inline-flex;
   position: relative;
   top: 80px;
-  border: thick solid;
+  left: 90px;
+  border: thin solid;
+  justify-content: center;
 }
 
 
 
 .firstcolumn{
   display: flex;
+  flex-direction: column;
   width: 630px;
   border: thin solid;
 }
@@ -75,8 +78,9 @@ ul li{
 
 .secondcolumn{
   display: flex;
+  flex-direction: column;
   width: 300px;
-  border: thick solid;
+  border: thin solid;
 }
 
 .secondcolumn div{
@@ -85,8 +89,9 @@ ul li{
 
 .thirdcolumn{
   display: flex;
+  flex-direction: column;
   width: 240px;
-  border: thick solid;
+  border: thin solid;
 }
 
 .thirdcolumn div{
