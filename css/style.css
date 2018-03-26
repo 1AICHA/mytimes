@@ -48,3 +48,22 @@ ul li{
 .black{
   color: black;
 }
+
+
+
+
+
+.maincontainer{
+  display: inline-flex;
+  position: relative;
+  border: thick solid;
+}
+
+.firstcolumn{
+  width: 630px;
+  border: thin solid;
+}
+
+.firstcolumn div{
+  border: thin solid;
+}
