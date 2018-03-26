@@ -59,6 +59,8 @@ ul li{
   border: thick solid;
 }
 
+
+
 .firstcolumn{
   width: 630px;
   border: thin solid;
@@ -68,11 +70,21 @@ ul li{
   border: thin solid;
 }
 
+
 .secondcolumn{
   width: 300px;
   border: thick solid;
 }
 
 .secondcolumn div{
+  border: thin solid;
+}
+
+.thirdcolumn{
+  witdh: 240px;
+  border: thick solid;
+}
+
+.thirdcolumn div{
   border: thin solid;
 }
