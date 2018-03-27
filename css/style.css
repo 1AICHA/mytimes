@@ -59,13 +59,9 @@ ul li{
 
 
 
-
-
-
 main{
   display: flex;
   justify-content: center;
-
 }
 
 
@@ -73,10 +69,10 @@ main{
   display: inline-flex;
   position: relative;
   top: 80px;
-  border: thin solid;
-  /*flex-wrap: nowrap;*/
+  /*border: thin solid;*/
   margin-bottom: 90px;
   z-index: 3;
+  flex-shrink: 0;
 }
 
 
@@ -85,17 +81,14 @@ main{
   display: flex;
   flex-direction: column;
   width: 630px;
-  border: thin solid;
+  /*border: thin solid;*/
   margin-right: 30px;
   margin-top: 30px;
-
-
-  /*flex-flow: column wrap;*/
-
+  flex-shrink: 0;
 }
 
 .firstcolumn div{
-  border: thin solid;
+  /*border: thin solid;*/
 }
 
 
@@ -103,26 +96,28 @@ main{
   display: inline-flex;
   flex-direction: column;
   width: 300px;
-  border: thin solid;
+  /*border: thin solid;*/
   margin-right: 30px;
   margin-top: 30px;
+  flex-shrink: 0;
 }
 
 .secondcolumn div{
-  border: thin solid;
+  /*border: thin solid;*/
 }
 
 .thirdcolumn{
   display: inline-flex;
   flex-direction: column;
   width: 240px;
-  border: thin solid;
+/*  border: thin solid;*/
   margin-right: 30px;
   margin-top: 30px;
+  flex-shrink: 0;
 }
 
 .thirdcolumn div{
-  border: thin solid;
+  /*border: thin solid;*/
 }
 
 
@@ -138,6 +133,7 @@ body{
   display: flex;
   flex-direction: column;
   align-items: center;
+  flex-shrink: 0;
 }
 
 
@@ -149,10 +145,12 @@ body{
 }
 
 .mainstory{
+  position: relative;
   font-family: Georgia;
   font-weight: bold;
   font-size: 40px;
   color: white;
+
 }
 
 
@@ -160,8 +158,7 @@ body{
 display: inline-flex;
 flex-wrap: wrap;
 justify-content: space-between;
-
-
+flex-shrink: 0;
 }
 
 
