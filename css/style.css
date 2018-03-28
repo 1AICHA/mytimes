@@ -4,6 +4,7 @@
   font-size: 14px;
   font-weight: bold;
   justify-content: space-between;
+  align-items: center;
   top: 0px;
   position: fixed;
   width: 100%;
@@ -128,6 +129,11 @@ body{
  color: black;
 }
 
+h1{
+  font-weight: bold;
+  font-size: 30px;
+
+}
 
 .box1{
   display: flex;
@@ -142,6 +148,8 @@ body{
   background-image: url("./images/img-story-main.png");
   width: 100%;
   height: 300px;
+  align-items: center;
+  justify-content: center;
 }
 
 .mainstory{
@@ -150,6 +158,7 @@ body{
   font-weight: bold;
   font-size: 40px;
   color: white;
+  margin: 20px;
 
 }
 
@@ -168,6 +177,8 @@ flex-shrink: 0;
   height: 300px;
   width: 299px;
   order: 3;
+  align-items: center;
+
 }
 
 
@@ -179,6 +190,7 @@ flex-shrink: 0;
    color: white;
    width: 299px;
    order: 1;
+   text-align: center;
 }
 
 
@@ -188,6 +200,7 @@ flex-shrink: 0;
   height: 300px;
   width: 299px;
   order: 4;
+  align-items: center;
 }
 
 
@@ -196,6 +209,8 @@ flex-shrink: 0;
   background-image: url("./images/img-story-1.png");
   height: 300px;
   width: 299px;
+  align-items: center;
+  text-align: center;
 }
 .nopicstory{
   width: 299px;
